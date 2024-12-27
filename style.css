@@ -165,9 +165,15 @@ input, button, select, option, textarea {
     padding-right: 25%;
 }
 
+.image-thumbnail {
+    width: 160px;
+    min-height: 160px;
+}
+
 .image-text {
     width: 160px;
     text-align: center;
+    margin-top: 8px;
 }
 
 .footer {
