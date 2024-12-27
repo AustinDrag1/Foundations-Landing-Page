@@ -89,7 +89,7 @@ input, button, select, option, textarea {
 
 /*
     ====================
-    Flex and spacing
+    Flex
 */
 .header {
     display: flex;
@@ -108,27 +108,15 @@ input, button, select, option, textarea {
     flex-flow: column nowrap;
 }
 
-.section {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.section-thin {
-    padding-left: 25%;
-    padding-right: 25%;
-}
-
-.footer {
-    min-height: 90px;
-}
-
 .flex-space-between {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .flex-space-around {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -155,14 +143,33 @@ input, button, select, option, textarea {
     gap: 30px;
 }
 
-.square {
-    /*height: 200px;
-    width: 200px;*/
+/*
+    ====================
+    Flex and spacing
+*/
+
+.section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section-thin {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.image-text {
+    width: 160px;
+    text-align: center;
+}
+
+.footer {
+    min-height: 90px;
 }
 
 /*
     ====================
-    Section specific spacing
+    Unique spacing
 */
 
 #start {
