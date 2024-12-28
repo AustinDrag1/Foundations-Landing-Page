@@ -13,11 +13,11 @@
 <body>
 
     <!-- Header -->
-    <div class="theme-dark header section">
+    <div class="theme-dark header flex-wrap section">
         <div class="header-logo">
             <div class="theme-dark-text-alt twenty-four bold">Header Logo</div>
         </div>
-        <div class="header-links">
+        <div class="header-links flex-wrap">
             <div><a href="./index.html" class="pro-link">header link 1</a></div>
             <div><a href="./index.html" class="pro-link">header link 2</a></div>
             <div><a href="./index.html" class="pro-link">header link 3</a></div>
@@ -29,7 +29,7 @@
 
         <!-- First Section -->
         <div class="theme-dark section" id="start">
-            <div class="flex-space-between flex-gap-two">
+            <div class="flex-space-between flex-wrap flex-gap-two">
                 <div class="flex-unit-one">
                     <p class="theme-dark-text-alt bold fourty-eight">This website is awesome</p>
                     <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
@@ -45,7 +45,7 @@
             style="margin-bottom: 50px; text-align: center">
                 <p>Some random information.</p>
             </div>
-            <div class="flex-space-around flex-gap-two">
+            <div class="flex-space-around flex-wrap flex-gap-two">
                 <div>
                     <div class="flex-center-center">
                         <img class="image-thumbnail blue-border round-edge" alt="blank image"></div>
@@ -79,9 +79,10 @@
 
         <!-- Action banner -->
         <div class="theme-light section" id="action-call">
-            <div class="action-blue round-edge flex-space-between">
-                <div>
-                    <p>Call to action! It's time!</p>
+            <div class="action-blue round-edge flex-center flex-wrap"
+            style="padding: 30px 10% 30px 10%">
+                <div class="flex-grow-one">
+                    <p class="bold" style="font-size: 18pt">Call to action! It's time!</p>
                     <p>Sign up for our product by clicking that button right over there!</p>
                 </div>
                 <button class="action-blue white-border round-edge">Sign up</button>

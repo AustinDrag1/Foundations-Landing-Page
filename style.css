@@ -93,8 +93,6 @@ input, button, select, option, textarea {
 */
 .header {
     display: flex;
-    flex-flow: row wrap;
-    /*justify-content: space-between;*/
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -106,7 +104,6 @@ input, button, select, option, textarea {
 
 .header-links {
     display: flex;
-    flex-flow: row wrap;
 }
 
 .content {
@@ -117,13 +114,11 @@ input, button, select, option, textarea {
 
 .flex-space-between {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .flex-space-around {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -138,6 +133,10 @@ input, button, select, option, textarea {
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .flex-unit-one {
     flex: 1;
 }
@@ -148,6 +147,10 @@ input, button, select, option, textarea {
 
 .flex-gap-two {
     gap: 30px;
+}
+
+.flex-grow-one {
+    flex-grow: 1;
 }
 
 /*
